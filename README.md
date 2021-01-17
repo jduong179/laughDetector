@@ -1,5 +1,9 @@
 # laughDetector
 Fall 2020 CS530 Project for SDSU
+
+1 minute demo: https://youtu.be/D3CDYXAGYII
+Presentation: https://youtu.be/V-3oDYuGfxI
+
 Files: 
 1. JokeBank.txt - This file contains the jokes, which are saved into an array for later use. Each joke is separated by a new line. These jokes are outputted for the user to hear via the text to speech feature.
 
