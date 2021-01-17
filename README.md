@@ -72,7 +72,7 @@ Boolean. True when the button is pressed once. False when the button is pressed 
 Instructions for user: 
 1) Add all source code files into the same directory. Download all necessary dependencies and libraries. Make sure all circuits are correct.
 2) Put all files in the same directory: 
-- main.py
+- LaughDetector.py
 - JokeBank.txt
 3) Initiate laugh detector with the following command within the directory with all files:
 python3 LaughDetector.py
