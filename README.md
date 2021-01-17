@@ -7,7 +7,7 @@ Presentation: https://youtu.be/V-3oDYuGfxI
 Files: 
 1. JokeBank.txt - This file contains the jokes, which are saved into an array for later use. Each joke is separated by a new line. These jokes are outputted for the user to hear via the text to speech feature.
 
-2. main.py - inside main contains these functions:
+2. main.py - inside LaughDetector contains these functions:
 
 main()
 This function calls all the functions within the source code, and keeps running until the button is pressed twice to exit the program. If the button is pressed once, it will keep reading out a joke to the user and outputting the difference in heart rate.
