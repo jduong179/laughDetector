@@ -14,59 +14,59 @@ This function calls all the functions within the source code, and keeps running 
 
 beatDifference(before, after)
 This function calculates the heart rate difference in percentage form. It takes the output data from the heartbeat sensor before and after the joke is told in order to measure the reaction difference.  
-Parameter: 
+- Parameter: 
 before: integer that represents change of heart rate before joke
 after: integer that represents change of heart rate after joke
-Returns: 
+- Returns: 
 Integer which represents the difference of heart rate in percentage form 
 
 rngGrabber()
 This function grabs the values from the humidity/temperature sensor and adds the humidity and temperature values together. 
-Parameter: 
+- Parameter: 
 None
-Returns: 
+- Returns: 
 Integer which is a random value
 
 jokeSelector(rngNum, JokeBank)
 The jokeSelector function will take in the outputs from our humidifier sensor, and select a joke based on our JokeBank. Randomly picks a joke from our jokebank text file separated by new line
-Parameter: 
+- Parameter: 
 ngNum: integer
-JokeBank: array of strings
+- JokeBank: array of strings
 Returns: joke for user as a String (will be outputted as text to voice through speakers)
 
 readJokeBank()
 This function reads JokeBank.txt file and puts all the jokes into an array which are separated by a new line.
-Parameter:
+- Parameter:
 None
-Returns:
+- Returns:
 Array of strings called JokeBank
 
 heartAnalyzer()
 This function records the heart rate and adds the change of signal to monitor change of heart rate.
-Parameter:
+- Parameter:
 None
-Returns:
+- Returns:
 An integer that represents the total change in heart rate
 
 speakbot(speak)
 This function accepts strings and reads a joke out loud using eSpeak text-to-speech
-Parameter:
+- Parameter:
 speak: string to be read out loud
-Returns:
+- Returns:
 None
 
 speakbotReaction(percent):
 This function reacts to the percentage of change of heart rate and reads out loud the difference using eSpeak
-Parameter:
+- Parameter:
 percent: string that represents the change of heart rate in a percentage form
-Returns:
+- Returns:
 None
 
 buttonInput()
 This function listens for a button press event. Either 1 press for a joke to start, or 2 presses to exit to the program.
-Parameter:
+- Parameter:
 None
-Returns:
+- Returns:
 Boolean. True when the button is pressed once. False when the button is pressed twice.
 
 Instructions for user: 
