@@ -15,8 +15,8 @@ This function calls all the functions within the source code, and keeps running 
 beatDifference(before, after)
 This function calculates the heart rate difference in percentage form. It takes the output data from the heartbeat sensor before and after the joke is told in order to measure the reaction difference.  
 - Parameter: 
-before: integer that represents change of heart rate before joke
-after: integer that represents change of heart rate after joke
+before: integer that represents change of heart rate before joke.
+after: integer that represents change of heart rate after joke.
 - Returns: 
 Integer which represents the difference of heart rate in percentage form 
 
@@ -30,8 +30,8 @@ Integer which is a random value
 jokeSelector(rngNum, JokeBank)
 The jokeSelector function will take in the outputs from our humidifier sensor, and select a joke based on our JokeBank. Randomly picks a joke from our jokebank text file separated by new line
 - Parameter: 
-rngNum: integer
-JokeBank: array of strings
+rngNum: integer.
+JokeBank: array of strings.
 - Returns: joke for user as a String (will be outputted as text to voice through speakers)
 
 readJokeBank()
