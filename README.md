@@ -30,9 +30,9 @@ Integer which is a random value
 jokeSelector(rngNum, JokeBank)
 The jokeSelector function will take in the outputs from our humidifier sensor, and select a joke based on our JokeBank. Randomly picks a joke from our jokebank text file separated by new line
 - Parameter: 
-ngNum: integer
-- JokeBank: array of strings
-Returns: joke for user as a String (will be outputted as text to voice through speakers)
+rngNum: integer
+JokeBank: array of strings
+- Returns: joke for user as a String (will be outputted as text to voice through speakers)
 
 readJokeBank()
 This function reads JokeBank.txt file and puts all the jokes into an array which are separated by a new line.
