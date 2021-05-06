@@ -75,10 +75,10 @@ Boolean. True when the button is pressed once. False when the button is pressed 
 Instructions for user: 
 1) Add all source code files into the same directory. Download all necessary dependencies and libraries. Make sure all circuits are correct.
 2) Put all files in the same directory: 
-- LaughDetector.py
-- JokeBank.txt
+  - LaughDetector.py
+  - JokeBank.txt
 3) Initiate laugh detector with the following command within the directory with all files:
 python3 LaughDetector.py
 4) Press the button once to enter the joke sequence. Press the button twice to exit the program.
-- If the button was pressed once, the bot will ask the user to place a finger on the heartbeat sensor, tell a joke, and will calculate heart rate difference. Once the heart rate change is read out loud, it will start over and await for one button press or two button presses again.
-- If the button was pressed twice, the bot will exit the program.
+  - If the button was pressed once, the bot will ask the user to place a finger on the heartbeat sensor, tell a joke, and will calculate heart rate difference. Once the heart rate change is read out loud, it will start over and await for one button press or two button presses again.
+  - If the button was pressed twice, the bot will exit the program.
